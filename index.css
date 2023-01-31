@@ -1,0 +1,231 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: Arial, Helvetica, sans-serif;
+}
+.background{
+ 
+background-image: url(fundo.jpeg);
+background-size: cover;
+background-position: center;
+height: 100vh;
+width: 100%;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 45px;
+   padding-left: 8%;
+}
+nav h2{
+color: rgb(255, 250, 250);
+font-size: 35px;
+cursor: pointer;
+letter-spacing: 2px;
+
+}
+span{
+    color: #5c21fd ;
+}
+
+nav ul li{
+    display: inline-block;
+    padding: 10px 25px;
+    list-style-type: none;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+nav ul li a:hover{
+    color: #5c21fd;
+    transform: scale(1.2);
+}
+.btn{
+    background-color:#5c21fd;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+   transition: transform.10s;
+   
+}
+
+.btn:hover{
+    transform: scale(1.2);
+}
+.main{
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50);
+}
+h4{
+    color: white;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+h1{
+    color: white;
+    margin: 20px 0px 20px;
+    font-size: 75px;
+}
+h3{
+    color: white;
+    font-size: 25px;
+    margin-bottom: 50px;
+
+}
+
+.container-btn form{
+    width: 300px;
+    max-width: 100%;
+    position: relative;
+}
+.container-btn form input:first-child{
+display: inline-block;
+width: 100%;
+padding: 14px 130px 14px 15px;
+border-radius: 30px;
+outline: none;
+}
+.container-btn form input:last-child{
+    position: absolute;
+    display: inline-block;
+    outline: none;
+    padding: 10px 30px ;
+    border: none;
+    border-radius: 30px;
+    background-color:#5c21fd ;
+    color: white;
+    box-shadow:  6px 6px 15px#5c21fd ;
+    right: 6px;
+    top: 6px;
+}
+
+   
+.background-color-sobre{
+     background-color: #191919;
+     color: white;
+     width: 100%;
+     padding: 100px 0px;
+}
+.background-color-sobre img{
+    width: 430px;
+    height: auto;
+
+}
+.text-sobre{
+    width: 550px;
+  
+}
+
+
+
+.main-sobre{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 1130px;
+    margin: 0 auto;
+  
+}
+.text-sobre h2{
+    color: white;
+    font-size: 75px;
+    text-transform: capitalize;
+}
+.text-sobre p{
+    color: white;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+button{
+    background-color: #5c21fd;
+    color: white;
+    text-transform: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+     padding: 13px 20px;
+     border-radius: 30px;
+     border-radius: 30px;
+     transition: .4s;
+     margin: 10px;
+}
+
+
+button:hover{
+    background-color: transparent;
+    border:2px solid #5c21fd;
+    cursor: pointer;
+
+}
+.container-serviço{
+background-color: #131111;
+width: 100%;
+padding: 100px 0px;
+}  
+
+.titulo h2{
+color: white;
+font-size: 75px;
+width: 1130px;
+margin:30px auto;
+justify-content: center;
+}
+
+.caixa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+color: white;
+}
+.card{
+    background-color: #191919;
+    height: 335px;
+    border: 20px;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+.card i{
+    font-size: 50px;
+    display: block;
+    margin: 25px 0px;
+    color: white;
+}
+.card h5{
+    color: white;
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 29px;
+
+}
+.btn{
+    border: none;
+    padding: 18px;
+}
+.btn:hover{
+    background-color:transparent ;
+    border: 2px solid#5c21fd ;
+    cursor: pointer;
+}
+.Redes-sociais{
+    background-color: #191919;
+    color: white;
+    gap: 2rem;
+    align-items: center;
+}
+.card p {
+    margin-bottom: 50px;
+}
